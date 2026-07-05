@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+# Core environment
+# Covers: Text (PyMuPDF), TEXTWAL (PyMuPDF / PyPDF / pdfminer.six / Claude),
+#         HTML, LaTeX, XML (GROBID client), and the final merge/CSV steps.
+# Does NOT include the VLM or Marker environments -- see the dedicated
+# requirements_vlm_*.txt and requirements_marker.txt files for those.
+#
+# Install with:
+#   pip install -r requirements/requirements_core.txt
+# ---------------------------------------------------------------------------
+
+pymupdf==1.26.7
+pypdf==6.6.2
+pdfminer.six==20260107
+beautifulsoup4==4.12.3
+lxml==5.3.1
+pylatexenc==2.10
+requests==2.32.5
+pandas==2.3.3
+
+# Claude-assisted extraction (TEXTWAL-CL)
+anthropic==0.46.0
+python-dotenv==1.2.2
+
+# convenience / progress output
+tqdm==4.67.1

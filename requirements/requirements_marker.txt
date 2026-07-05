@@ -1,0 +1,12 @@
+# ---------------------------------------------------------------------------
+# Marker environment: PDF -> Markdown conversion
+# https://github.com/datalab-to/marker
+# Use a DEDICATED virtual environment / conda env for this file -- marker-pdf
+#
+# Install with:
+#   pip install -r requirements/requirements_marker.txt
+# ---------------------------------------------------------------------------
+
+marker-pdf==1.10.2
+torch==2.5.1+cu124
+torchvision==0.20.1+cu124
