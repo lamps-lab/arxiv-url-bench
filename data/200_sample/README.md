@@ -38,4 +38,4 @@ data/
 └── la_360k_sample/
 ```
 
-Only data/200_sample/raw_files/pdf/ and data/200_sample/raw_files/latex/ need to be populated before running this notebook. These directories should contain the 200-paper benchmark downloaded from the Hugging Face repository. All remaining directories and intermediate outputs are created automatically during notebook execution.
+Only `data/200_sample/raw_files/pdf/` and `data/200_sample/raw_files/latex/` need to be populated before running this notebook. These directories should contain the 200-paper benchmark downloaded from the Hugging Face repository. All remaining directories and intermediate outputs are created automatically during notebook execution.
