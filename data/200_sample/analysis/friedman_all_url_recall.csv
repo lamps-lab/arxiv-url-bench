@@ -1,0 +1,2 @@
+metric,n_papers,k_formats,chi2,df,p_value,significant
+All-URL Recall,190,6,232.4926,5,3.1253927522284747e-48,True
