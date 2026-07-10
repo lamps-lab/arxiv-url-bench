@@ -29,13 +29,15 @@ The raw arXiv papers and large intermediate artifacts are **not** stored in this
 - [Notebooks](#notebooks)
 - [Notebook execution order](#notebook-execution-order)
 - [Results and figures](#results-and-figures)
-- [Citation](#citation)
-- [License](#license)
+<!-- - [Citation](#citation)
+- [License](#license) -->
 <!-- - [Acknowledgments](#acknowledgments) -->
 
 ---
 
 ## Overview
+
+![alt text](figures/intro_figure.png "Different file formats for an arXiv paper and how they are obtained for our study")
 
 Twelve independent extraction pipelines are run over the same set of papers:
 
