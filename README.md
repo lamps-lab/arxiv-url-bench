@@ -36,8 +36,16 @@ The raw arXiv papers and large intermediate artifacts are **not** stored in this
 ---
 
 ## Overview
+<!-- 
+![alt text](figures/intro_figure.png "Different file formats for an arXiv paper and how they are obtained for our study") -->
 
-![alt text](figures/intro_figure.png "Different file formats for an arXiv paper and how they are obtained for our study")
+<p align="left">
+  <img src="figures/intro_figure.png"
+       alt="Different file formats for an arXiv paper and how they are obtained for our study"
+       width="700">
+  <br>
+  <em>Figure: Different file formats for an arXiv paper and how they are obtained in our study.</em>
+</p>
 
 Twelve independent extraction pipelines are run over the same set of papers:
 
