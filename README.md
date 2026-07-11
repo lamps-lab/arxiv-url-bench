@@ -39,15 +39,17 @@ The raw arXiv papers and large intermediate artifacts are **not** stored in this
 <!-- 
 ![alt text](figures/intro_figure.png "Different file formats for an arXiv paper and how they are obtained for our study") -->
 
-<p align="left">
+<p align="center">
   <img src="figures/intro_figure.png"
        alt="Different file formats for an arXiv paper and how they are obtained for our study"
-       width="700">
+       width="600">
   <br>
   <em>Figure: Different file formats for an arXiv paper and how they are obtained in our study.</em>
 </p>
 
 Twelve independent extraction pipelines are run over the same set of papers:
+
+<div align="center">
 
 | Format | Tool(s) |
 |---|---|
@@ -63,6 +65,8 @@ Twelve independent extraction pipelines are run over the same set of papers:
 | PNG (page images), VLM-assisted | DeepSeek-VL-7B-Chat |
 | PNG (page images), VLM-assisted | MiniCPM-o-2_6 |
 | Markdown | Marker |
+
+</div>
 
 **TEXTWAL** = "Text With Annotation Layer": beyond visible text, it also pulls in PDF annotations, optional-content-group (hidden) layers, document metadata, and a raw byte-level scan.
 
@@ -111,6 +115,8 @@ None of the raw PDFs, LaTeX sources, or large intermediate JSON files are checke
 
 **https://huggingface.co/datasets/dblind-data/arxiv-url-bench-hf**
 
+<div align="center">
+
 | | Size | Needed for | Download instructions |
 |---|---|---|---|
 | **200-paper benchmark raw files** (PDF + LaTeX source) | ~2.8 GB | Notebook 1 | [`data/200_sample/README.md`](data/200_sample/README.md) |
@@ -118,11 +124,15 @@ None of the raw PDFs, LaTeX sources, or large intermediate JSON files are checke
 | **360k longitudinal corpus** (6 raw formats, `.tar.gz` each) | ~560 GB total | only if rerunning the longitudinal preprocessing pipeline | [`data/la_360k_sample/README.md`](data/la_360k_sample/README.md) |
 | **360k extracted-URLs JSON** (`arxiv_extracted_urls_5_formats_360k.json`) | ~690 MB | Notebook 4 (this is the *only* file you need to reproduce its final figure) | [`data/la_360k_sample/README.md`](data/la_360k_sample/README.md) |
 
+</div>
+
 Each `data/*/README.md` has the exact directory layout the corresponding notebook expects — download the relevant archive(s) from Hugging Face, extract, and place the contents as shown there before running the notebook.
 
 ## Environment setup
 
 Several formats need **conflicting** package versions (e.g. different `torch` builds per VLM) and cannot share one Python environment. Create a dedicated virtual environment / conda environment per row below before running that section of a notebook:
+
+<div align="center">
 
 | Environment | Requirements file | Used by |
 |---|---|---|
@@ -131,6 +141,8 @@ Several formats need **conflicting** package versions (e.g. different `torch` bu
 | VLM — Qwen | `requirements/requirements_vlm_qwen.txt` | Qwen2-VL-7B-Instruct section |
 | VLM — DeepSeek | `requirements/requirements_vlm_deepseek.txt` | DeepSeek-VL-7B-Chat section |
 | VLM — MiniCPM | `requirements/requirements_vlm_minicpm.txt` | MiniCPM-o-2_6 section|
+
+</div>
 
 Additional, non-pip dependencies pulled in by specific sections:
 
@@ -200,6 +212,8 @@ Notebooks 1 → 2 → 3 must run in that order the first time (each reads a file
 
 `results/` contains the PDF figures the notebooks produce (regenerate by rerunning notebooks 2 & 3):
 
+<div align="center">
+
 | File | From | Shows |
 |---|---|---|
 | `url_complexity_location_spatial.pdf` | Notebook 2 | Where ground-truth URLs appear in a paper, and their lexicographical/spatial complexity |
@@ -209,6 +223,8 @@ Notebooks 1 → 2 → 3 must run in that order the first time (each reads a file
 | `all_urls_f1_63_combinations.pdf` | Notebook 2 | Bootstrapped All-URLs F1 across all 63 format combinations |
 | `oads_distribution.pdf` | Notebook 3 | Distribution of ground-truth URLs across OADS categories |
 | `oads_recall_63_combinations.pdf` / `all_valid_OADS_urls_recall_63_combinations.pdf` | Notebook 3 | Bootstrapped OADS Recall across all 63 format combinations |
+
+</div>
 
 <!-- ## Citation
 
