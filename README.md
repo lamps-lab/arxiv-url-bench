@@ -1,6 +1,6 @@
 # arxiv-url-bench: Multi-Format Benchmark for URL Extraction from arXiv Papers
 
-This repository contains the code used in our study on **URL Extraction from Scholarly PDFs: A Cross-Format Comparative Analysis**.
+This repository contains the code used in our study on **URL Extraction from Scholarly Documents: A Cross-Format Comparative Analysis**.
 
 Scholarly documents contain URLs linking to datasets, software, publications, project websites, and other external resources. Although these links are essential for downstream tasks such as web crawling, link rot analysis, and knowledge graph construction, URL extraction is often treated as a simple preprocessing step using only a single document representation (typically text extracted from PDFs).
 
