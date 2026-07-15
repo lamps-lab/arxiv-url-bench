@@ -39,7 +39,7 @@ The raw arXiv papers and large intermediate artifacts are **not** stored in this
 <!-- 
 ![alt text](figures/intro_figure.png "Different file formats for an arXiv paper and how they are obtained for our study") -->
 
-<p align="center">
+<p align="left">
   <img src="figures/intro_figure.png"
        alt="Different file formats for an arXiv paper and how they are obtained for our study"
        width="600">
@@ -49,7 +49,7 @@ The raw arXiv papers and large intermediate artifacts are **not** stored in this
 
 Twelve independent extraction pipelines are run over the same set of papers:
 
-<div align="center">
+<div align="left">
 
 | Format | Tool(s) |
 |---|---|
@@ -115,7 +115,7 @@ None of the raw PDFs, LaTeX sources, or large intermediate JSON files are checke
 
 **https://huggingface.co/datasets/dblind-data/arxiv-url-bench-hf**
 
-<div align="center">
+<div align="left">
 
 | | Size | Needed for | Download instructions |
 |---|---|---|---|
@@ -132,7 +132,7 @@ Each `data/*/README.md` has the exact directory layout the corresponding noteboo
 
 Several formats need **conflicting** package versions (e.g. different `torch` builds per VLM) and cannot share one Python environment. Create a dedicated virtual environment / conda environment per row below before running that section of a notebook:
 
-<div align="center">
+<div align="left">
 
 | Environment | Requirements file | Used by |
 |---|---|---|
@@ -212,7 +212,7 @@ Notebooks 1 → 2 → 3 must run in that order the first time (each reads a file
 
 `results/` contains the PDF figures the notebooks produce (regenerate by rerunning notebooks 2 & 3):
 
-<div align="center">
+<div align="left">
 
 | File | From | Shows |
 |---|---|---|
