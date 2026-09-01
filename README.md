@@ -113,7 +113,7 @@ You do not need to run anything in `scripts/` directly — each notebook's **Con
 
 None of the raw PDFs, LaTeX sources, or large intermediate JSON files are checked into this repository. Both datasets are hosted on Hugging Face:
 
-**https://huggingface.co/datasets/dblind-data/arxiv-url-bench-hf**
+**https://huggingface.co/datasets/rochanaro/hf-arxiv-url-bench**
 
 <div align="left">
 
@@ -230,7 +230,7 @@ Notebooks 1 → 2 → 3 must run in that order the first time (each reads a file
 
 A citation for the accompanying paper will be added here once available.  -->
 <!-- 
-> *arXiv URL Extraction Benchmark & Longitudinal Multi-Format Corpus*, `dblind-data/arxiv-url-bench-hf`, Hugging Face Datasets, 2026. https://huggingface.co/datasets/dblind-data/arxiv-url-bench-hf -->
+> *arXiv URL Extraction Benchmark & Longitudinal Multi-Format Corpus*, `rochanaro/hf-arxiv-url-bench`, Hugging Face Datasets, 2026. https://huggingface.co/datasets/rochanaro/hf-arxiv-url-bench -->
 
 <!-- ## License
 

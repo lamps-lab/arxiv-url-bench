@@ -7,7 +7,7 @@ This folder already contains the ground-truth annotations and sampling metadata 
 
 The **raw source files** (the 200 PDFs and their corresponding LaTeX sources) are not checked into this repository because of their size, and must be downloaded from Hugging Face before running `1_arxiv_200_benchmark_conversions_and_extractions.ipynb`:
 
-https://huggingface.co/datasets/dblind-data/arxiv-url-bench-hf/blob/main/arxiv-200-benchmark/arxiv-url-bench-200-raw-files.tar.gz
+https://huggingface.co/datasets/rochanaro/hf-arxiv-url-bench/blob/main/arxiv-200-benchmark/arxiv-url-bench-200-raw-files.tar.gz
 
 After downloading and extracting the archive, place the contents under the repository's `data/` directory so that the directory structure matches the following:
 

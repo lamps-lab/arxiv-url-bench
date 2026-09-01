@@ -3,7 +3,7 @@
 The datasets and intermediate artifacts used in the longitudinal analysis are distributed separately because of their size. Download the complete **`arxiv-mini-corpus`** from Hugging Face:
 
 **Hugging Face:**
-https://huggingface.co/datasets/dblind-data/arxiv-url-bench-hf/tree/main/arxiv-mini-corpus
+https://huggingface.co/datasets/rochanaro/hf-arxiv-url-bench/tree/main/arxiv-mini-corpus
 
 After downloading, place the contents under the repository's `data/` directory so that the directory structure matches the following:
 
