@@ -1,5 +1,21 @@
 # arxiv-url-bench: Multi-Format Benchmark for URL Extraction from arXiv Papers
 
+<p align="left">
+
+  <a href="https://doi.org/10.1145/3805696.3846023">
+    <img src="https://img.shields.io/badge/Published_Paper-Read_Now-2ea44f?style=flat-square&logo=readthedocs&logoColor=white" alt="Published Paper">
+  </a>
+
+  <a href="https://arxiv.org/pdf/2609.08019">
+    <img src="https://img.shields.io/badge/Preprint-arXiv-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="Preprint">
+  </a>
+  
+  <a href="https://huggingface.co/datasets/rochanaro/hf-arxiv-url-bench">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Dataset">
+  </a>
+  
+</p>
+
 This repository contains the code used in our study on **URL Extraction from Scholarly Documents: A Cross-Format Comparative Analysis**.
 
 Scholarly documents contain URLs linking to datasets, software, publications, project websites, and other external resources. Although these links are essential for downstream tasks such as web crawling, link rot analysis, and knowledge graph construction, URL extraction is often treated as a simple preprocessing step using only a single document representation (typically text extracted from PDFs).
@@ -226,11 +242,19 @@ Notebooks 1 → 2 → 3 must run in that order the first time (each reads a file
 
 </div>
 
-<!-- ## Citation
-
-A citation for the accompanying paper will be added here once available.  -->
-<!-- 
-> *arXiv URL Extraction Benchmark & Longitudinal Multi-Format Corpus*, `rochanaro/hf-arxiv-url-bench`, Hugging Face Datasets, 2026. https://huggingface.co/datasets/rochanaro/hf-arxiv-url-bench -->
+## Citation
+```BibTeX
+@misc{obadage2026urlextractioncrossformat,
+      title={URL Extraction from Scholarly Documents: A Cross-Format Comparative Analysis}, 
+      author={Rochana R. Obadage and Lamia Salsabil and Sawood Alam and Bipasha Banarjee and William A. Ingram and Edward A. Fox and Jian Wu},
+      year={2026},
+      eprint={2609.08019},
+      archivePrefix={arXiv},
+      primaryClass={cs.DL},
+      url={https://arxiv.org/abs/2609.08019}, 
+	  doi={10.48550/arXiv.2609.08019},
+}
+```
 
 <!-- ## License
 
@@ -243,5 +267,5 @@ This project builds on a number of open-source and third-party tools: [PyMuPDF](
 
 ```
 Rochana R. Obadage
-09/01/2026
+09/15/2026
 ```
