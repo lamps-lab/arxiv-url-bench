@@ -14,6 +14,10 @@
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Hugging%20Face-FFD21E?style=flat-square&logoColor=black" alt="Hugging Face Dataset">
   </a>
   
+  <a href="https://doi.org/10.1145/3805696.3846023">
+    <img src="https://img.shields.io/badge/DOI-10.1145/3805696.3846023-blue?style=flat-square" alt="DOI">
+  </a>
+   
 </p>
 
 This repository contains the code used in our study on **URL Extraction from Scholarly Documents: A Cross-Format Comparative Analysis**.
