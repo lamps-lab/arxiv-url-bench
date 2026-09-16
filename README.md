@@ -242,6 +242,12 @@ Notebooks 1 → 2 → 3 must run in that order the first time (each reads a file
 
 </div>
 
+## Acknowledgments
+
+This project builds on a number of open-source and third-party tools: [PyMuPDF](https://github.com/pymupdf/PyMuPDF), [pypdf](https://github.com/py-pdf/pypdf), [pdfminer.six](https://github.com/pdfminer/pdfminer.six), [GROBID](https://github.com/kermitt2/grobid), [LaTeXML](https://github.com/brucemiller/latexml), [Marker](https://github.com/datalab-to/marker), [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL), [MiniCPM-o](https://huggingface.co/openbmb/MiniCPM-o-2_6), and the [Anthropic API](https://www.anthropic.com) (Claude), as well as [arXiv](https://arxiv.org) itself for hosting the underlying papers.
+
+
+
 ## Citation
 ```BibTeX
 @misc{obadage2026urlextractioncrossformat,
@@ -259,10 +265,6 @@ Notebooks 1 → 2 → 3 must run in that order the first time (each reads a file
 <!-- ## License
 
 The companion Hugging Face dataset is released under **CC BY 4.0**. This repository does not currently include a code license file — if you plan to reuse or redistribute the code, add one (e.g., MIT, Apache-2.0, BSD-3-Clause) to make the terms explicit. -->
-
-## Acknowledgments
-
-This project builds on a number of open-source and third-party tools: [PyMuPDF](https://github.com/pymupdf/PyMuPDF), [pypdf](https://github.com/py-pdf/pypdf), [pdfminer.six](https://github.com/pdfminer/pdfminer.six), [GROBID](https://github.com/kermitt2/grobid), [LaTeXML](https://github.com/brucemiller/latexml), [Marker](https://github.com/datalab-to/marker), [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL), [MiniCPM-o](https://huggingface.co/openbmb/MiniCPM-o-2_6), and the [Anthropic API](https://www.anthropic.com) (Claude), as well as [arXiv](https://arxiv.org) itself for hosting the underlying papers.
 
 
 ```
